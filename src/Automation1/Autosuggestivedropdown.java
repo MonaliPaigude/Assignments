@@ -18,10 +18,10 @@ public class Autosuggestivedropdown {
          driver.get("https://www.makemytrip.com/");
          
          
-         driver.findElement(By.xpath("//*[@id='fromCity']")).click();
+         //driver.findElement(By.xpath("//*[@id='fromCity']")).click();
          //To iterate the same Xpath on multiple lines//
          
-         WebElement source=driver.findElement(By.xpath("////[@class='react-autosuggest__input react-autosuggest__input--open']"));
+         WebElement source=driver.findElement(By.xpath("//*[contains(@class,'autosuggest') and @placeholder='From"));
          source.click();
          source.clear();
          source.sendKeys("MUM");
