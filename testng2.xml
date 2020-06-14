@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Execution">
+  <test name="Project1">
+    <classes>
+      <class name="Automation1.Class1TestNG"/>
+      <class name="Automation1.Class2TestNG"/>
+       <class name="Automation1.Class4TestNG"/>
+ 
+    
+  </classes>
+  </test>
+  
+  
+  
+  <test name="Project2"> 
+   <classes>
+  <class name="Automation1.Class3TestNG"/>
+        </classes>
+  </test>
+  </suite> 
+

@@ -19,7 +19,7 @@ public class GoogleSearch {
 		driver.findElement(By.name("q")).sendKeys("Selenium");
  	    Thread.sleep(1000);
 	   
- 	    List<WebElement> list = driver.findElements(By.xpath("//ul[@role ='listbox']//li"));
+ 	    List<WebElement> list = driver.findElements(By.xpath("//ul[@id ='listbox']//li"));
  	    System.out.println("Number of suggestions displayed in search box :: " +list.size());
 
  	    for(int i=0; i<list.size();i++) {

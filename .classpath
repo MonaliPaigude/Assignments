@@ -47,5 +47,7 @@
 	<classpathentry kind="lib" path="C:/Users/RSC/Desktop/Selenium Jar files/selenium-server-3.9.1/selenium-3.9.1-nodeps.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RSC/Desktop/Selenium Jar files/selenium-server-3.9.1/selenium-3.9.1-nodeps-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/RSC/Desktop/TestTNG JAR/testng-6.7.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/RSC/.p2/pool/plugins/com.beust.jcommander_1.72.0.jar" sourcepath="C:/Users/RSC/.p2/pool/plugins/com.beust.jcommander.source_1.72.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
