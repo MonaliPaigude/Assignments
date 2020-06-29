@@ -4,11 +4,14 @@
 
 
 <test name="Testing">
-<parameter name="Browser" value="ABC">
+<parameter name="Browser" value="https://google.com">
 </parameter>
 
   <classes> 
-       <class name="Automation1.Class2TestNG"/>
+       
+        
+<class name="Automation1.Class2TestNG"/>
+             
   </classes>
   </test>
   </suite> 

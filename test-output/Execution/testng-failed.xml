@@ -1,54 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Execution]">
-  <test parallel="tests" name="Project2(failed)" preserve-order="true">
+<suite parallel="none" name="Failed suite [Execution]">
+  <parameter name="Browser" value="https://google.com"/>
+  <test parallel="none" name="Testing(failed)" preserve-order="true">
+    <parameter name="Browser" value="https://google.com"/>
     <classes>
-      <class name="Automation1.Class3TestNG">
+      <class name="Automation1.ShopingLoginTestNG">
         <methods>
-          <include name="UserName"/>
+          <include name="Addtocard"/>
         </methods>
-      </class> <!-- Automation1.Class3TestNG -->
-      <class name="Automation1.Class1TestNG">
-        <methods>
-          <include name="Search"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- Automation1.Class1TestNG -->
-      <class name="Automation1.Class4TestNG">
-        <methods>
-          <include name="PersonalLoan"/>
-          <include name="Loan3"/>
-        </methods>
-      </class> <!-- Automation1.Class4TestNG -->
-      <class name="Automation1.Class2TestNG">
-        <methods>
-          <include name="dayselection"/>
-          <include name="screenshot"/>
-        </methods>
-      </class> <!-- Automation1.Class2TestNG -->
+      </class> <!-- Automation1.ShopingLoginTestNG -->
     </classes>
-  </test> <!-- Project2(failed) -->
-  <test parallel="tests" name="Project1(failed)" preserve-order="true">
-    <classes>
-      <class name="Automation1.Class1TestNG">
-        <methods>
-          <include name="Search"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- Automation1.Class1TestNG -->
-      <class name="Automation1.Class2TestNG">
-        <methods>
-          <include name="dayselection"/>
-          <include name="browser"/>
-          <include name="screenshot"/>
-        </methods>
-      </class> <!-- Automation1.Class2TestNG -->
-      <class name="Automation1.Class4TestNG">
-        <methods>
-          <include name="PersonalLoan"/>
-          <include name="Loan3"/>
-        </methods>
-      </class> <!-- Automation1.Class4TestNG -->
-    </classes>
-  </test> <!-- Project1(failed) -->
+  </test> <!-- Testing(failed) -->
 </suite> <!-- Failed suite [Execution] -->

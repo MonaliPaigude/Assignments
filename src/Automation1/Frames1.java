@@ -22,6 +22,8 @@ public class Frames1 {
         driver.manage().window().maximize();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         System.out.println(driver.findElements(By.tagName("iframe")).size());
+        
+        
 		
 	}
 

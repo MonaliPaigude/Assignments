@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Flight">
+  <parameter name="URL" value="http://newtours.demoaut.com/">  </parameter>
+  <parameter name="username" value="tutorial">  </parameter>
+  <parameter name="password" value="tutorial">  </parameter>
+  
+
+    
+    <classes>
+      <class name="Automation1.ProjectflightBooking"/>
+     
+    </classes>
+  </test> 
+</suite> 
